@@ -1,5 +1,5 @@
-# Programmers_Coding-Test-Practice
-# JAVA
+# Programmers_Coding-Test-Practice(JAVA)
+
 1️⃣ 입문 (워밍업 10~20개)
 
 - 두 수의 합 ✅26.04.29
