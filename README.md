@@ -2,7 +2,7 @@
 
 1️⃣ 입문
 
-- 두 수의 합 ✅26.04.29
+- 두 수의 합 ✅26.04.29 https://github.com/gyudev03/Programmers_Coding-Test-Practice/blob/main/%EC%9E%85%EB%AC%B8/%EB%82%98%EB%A8%B8%EC%A7%80%EA%B0%80%201%EC%9D%B4%20%EB%90%98%EB%8A%94%20%EC%88%98%20%EC%B0%BE%EA%B8%B0.java
 - 평균 구하기 ✅26.04.29
 - 짝수와 홀수 ✅26.04.29
 - 문자열 내 p와 y의 개수 ✅26.04.29
