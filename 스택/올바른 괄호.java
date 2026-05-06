@@ -1,3 +1,4 @@
+// 처음 풀이
 class Solution {
     boolean solution(String s) {
         boolean answer = true;
@@ -14,7 +15,7 @@ class Solution {
     }
 }
 
-// 스택
+// 이후 스택 풀이
 import java.util.Stack;
 class Solution {
     boolean solution(String s) {
