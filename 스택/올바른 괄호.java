@@ -13,3 +13,23 @@ class Solution {
         return answer;
     }
 }
+
+// 스택
+import java.util.Stack;
+class Solution {
+    boolean solution(String s) {
+        boolean answer = true;
+        Stack<Integer> st = new Stack<>();
+        char[] ch = s.toCharArray();
+        
+        for(int i = 0; i<ch.length; i++){
+            if(ch[i] == '(') st.push(1);
+            else if(ch[i] == ')'){
+                if(st.isEmpty()) answer = false;
+                else st.pop();
+            }
+        }
+        if(!st.isEmpty()) answer = false;
+        return answer;
+    }
+}
