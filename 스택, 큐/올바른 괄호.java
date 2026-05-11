@@ -6,11 +6,19 @@ class Solution {
         char[] ch = s.toCharArray();
         
         for(int i = 0; i<ch.length; i++){
-            if(cnt < 0) answer = false;
-            if(ch[i] == '(') cnt++;
-            else if(ch[i] == ')') cnt--;
+            if(cnt < 0){
+                answer = false;
+            }
+            if(ch[i] == '('){
+                cnt++;
+            }
+            else if(ch[i] == ')'){
+                cnt--;
+            }
         }
-        if(cnt != 0) answer = false;
+        if(cnt != 0){
+            answer = false;
+        }
         return answer;
     }
 }
@@ -24,13 +32,21 @@ class Solution {
         char[] ch = s.toCharArray();
         
         for(int i = 0; i<ch.length; i++){
-            if(ch[i] == '(') st.push(1);
+            if(ch[i] == '('){
+                st.push(1);
+            }
             else if(ch[i] == ')'){
-                if(st.isEmpty()) answer = false;
-                else st.pop();
+                if(st.isEmpty()){
+                    answer = false;
+                }
+                else{
+                    st.pop();
+                }
             }
         }
-        if(!st.isEmpty()) answer = false;
+        if(!st.isEmpty()){
+            answer = false;
+        }
         return answer;
     }
 }
